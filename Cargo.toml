@@ -1,0 +1,13 @@
+[package]
+name = "demo-project"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ethers-core = "2.0.0"
+serde_json = "1.0"
+ethabi="18.0.0"
+hex="0.4.3"
+serde="1.0.130"
+ethers-signers="2.0.0"
+
