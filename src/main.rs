@@ -5,7 +5,6 @@ use ethers_core::utils::hex;
 use ethers_core::types::transaction::eip712::EIP712Domain;
 use serde::{Deserialize, Serialize};
 
-
 #[derive(Debug, Serialize, Deserialize)]
 struct Attest {
     version: u16,
